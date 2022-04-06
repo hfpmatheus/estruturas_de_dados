@@ -1,0 +1,8 @@
+recursiva(4) = -5 * recursiva(3) + 4
+recursiva(3) = -5 ( -5 * recursiva(2) + 3 ) + 4
+recursiva(2) = -5 ( -5 ( -5 * recursiva(1) + 2 ) + 3 ) + 4
+recursiva(1) = -5 ( -5 ( -5 * -1 + 2 ) + 3 ) + 4 
+
+-5 ( -5 ( 7 ) + 3 ) + 4 
+-5 ( -32 ) + 4 
+164
